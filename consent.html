@@ -1,0 +1,160 @@
+<!doctype html>
+
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>رضایت‌نامه شرکت در پژوهش</title>
+  <meta name="description" content="رضایت‌نامه شرکت در پژوهش نسخه فارسی و بومی‌شده از پروژه ضمنی هاروارد با استفاده از jsPsych" />
+  <style>
+    :root{
+      --bg:#0f172a; /* slate-900 */
+      --card:#111827; /* gray-900 */
+      --muted:#94a3b8; /* slate-400 */
+      --text:#e5e7eb; /* gray-200 */
+      --accent:#22d3ee; /* cyan-400 */
+      --accent-2:#10b981; /* emerald-500 */
+      --danger:#ef4444; /* red-500 */
+      --border:#1f2937; /* gray-800 */
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Noto Sans",Tahoma,Arial; 
+      background:radial-gradient(1200px 800px at 80% -10%,#1e293b,transparent),
+                 radial-gradient(900px 600px at -10% 110%,#0e7490,transparent),
+                 var(--bg);
+      color:var(--text);
+      line-height:1.7;
+    }
+    .container{max-width:920px;margin:0 auto;padding:24px}
+    .card{
+      background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));
+      border:1px solid var(--border);
+      border-radius:20px; padding:28px; backdrop-filter:blur(8px);
+      box-shadow:0 20px 40px rgba(0,0,0,.35);
+    }
+    h1{margin:0 0 12px;font-size:clamp(22px,3vw,32px)}
+    h2{font-size:clamp(18px,2.2vw,22px);margin:24px 0 12px}
+    p{margin:10px 0;color:var(--text)}
+    .muted{color:var(--muted)}
+    .info{
+      display:grid; gap:10px; margin:14px 0 0; font-size:14px; color:var(--muted)
+    }
+    .list{padding-right:18px}
+    .list li{margin:6px 0}
+    .badge{display:inline-block;border:1px dashed var(--accent);color:var(--accent);padding:.2rem .5rem;border-radius:999px;font-size:12px}
+    .actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:22px}
+    .btn{appearance:none;border:1px solid var(--border); background:#0b1324; color:var(--text);
+         padding:12px 16px; border-radius:12px; cursor:pointer; font-weight:600; 
+         transition:transform .08s ease, background .2s ease, border-color .2s ease}
+    .btn:focus{outline:2px solid var(--accent)}
+    .btn:hover{background:#121a2e}
+    .btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#0b1220; border-color:transparent}
+    .btn-primary:hover{filter:brightness(1.05)}
+    .btn-danger{border-color:rgba(239,68,68,.4); color:#fecaca}.footer{margin-top:22px;font-size:13px;color:var(--muted)}
+.kbd{border:1px solid var(--border);border-bottom-width:3px;padding:.1rem .35rem;border-radius:6px;background:#0b1324}
+.sep{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:18px 0}
+a{color:var(--accent)}
+
+  </style>
+</head>
+<body>
+  <noscript>
+    <div class="container">
+      <div class="card">
+        برای اجرای این پژوهش نیاز به فعال بودن جاوااسکریپت دارید.
+      </div>
+    </div>
+  </noscript> <main class="container" aria-labelledby="title">
+    <div class="card" role="article" aria-describedby="summary">
+      <span class="badge" aria-label="نسخه فارسی و بومی‌سازی‌شده">نسخه فارسی &nbsp;|&nbsp; بومی‌سازی‌شده</span>
+      <h1 id="title">رضایت‌نامه برای شرکت در پژوهش</h1>
+      <p id="summary" class="muted">
+        لطفاً متن زیر را با دقت بخوانید. با انتخاب «می‌پذیرم»، موافقت خود را برای شرکت در این پژوهش اعلام می‌کنید.
+      </p><h2>هدف پژوهش</h2>
+  <p>
+    این پژوهش نسخه‌ای فارسی‌سازی و بومی‌شده از <strong>پروژه ضمنی هاروارد (Harvard Implicit Project)</strong> است. 
+    این وب‌سایت ادعا نمی‌کند ایدهٔ اصلی از سوی ما بوده است؛ بلکه تنها یک نسخهٔ شخصی‌سازی‌شده برای شرایط و فرهنگ ایران ارائه می‌کند.
+  </p>
+
+  <h2>ابزار و کدهای مورد استفاده</h2>
+  <p>
+    کلیهٔ کدها و مؤلفه‌های فنی این پژوهش مبتنی بر کتابخانهٔ متن‌باز 
+    <a href="https://www.jspsych.org/" target="_blank" rel="noopener">jsPsych</a> 
+    است که به‌صورت رایگان از وب‌سایت رسمی آن برداشت و متناسب‌سازی شده‌اند.
+  </p>
+
+  <h2>روند اجرای مطالعه</h2>
+  <ul class="list">
+    <li>از شما خواسته می‌شود وظایف سادهٔ شناختی (مانند دسته‌بندی محرک‌ها) را انجام دهید.</li>
+    <li>زمان واکنش و الگوهای پاسخ شما برای تحلیل علمی ثبت می‌شود؛ پاسخ «درست/نادرست» مطلق وجود ندارد.</li>
+    <li>مدت زمان مورد نیاز حدود چند دقیقه است (بسته به نسخهٔ تکلیف).</li>
+  </ul>
+
+  <h2>محرمانگی و حریم خصوصی</h2>
+  <ul class="list">
+    <li>هیچ دادهٔ شناسایی‌کننده‌ای مانند نام، ایمیل یا شماره تماس جمع‌آوری نمی‌شود.</li>
+    <li>داده‌ها صرفاً به‌شکل تجمیعی و آماری تحلیل و گزارش می‌شوند.</li>
+    <li>می‌توانید هر زمان که بخواهید بدون هیچ پیامدی مطالعه را ترک کنید.</li>
+  </ul>
+
+  <h2>حقوق شرکت‌کننده</h2>
+  <ul class="list">
+    <li>شرکت در این پژوهش کاملاً داوطلبانه است.</li>
+    <li>عدم پذیرش یا خروج زودهنگام، هیچ پیامد منفی برای شما نخواهد داشت.</li>
+    <li>انتخاب دکمهٔ «می‌پذیرم» به معنای رضایت آگاهانهٔ شما برای شرکت در پژوهش است.</li>
+  </ul>
+
+  <h2>پرسش‌ها و راه ارتباط</h2>
+  <p>در صورت داشتن هرگونه پرسش یا ابهام می‌توانید با پژوهشگر تماس بگیرید:</p>
+  <p>📧 <a href="mailto:zahrafaghanizarini@gmail.com">zahrafaghanizarini@gmail.com</a></p>
+
+  <div class="sep" aria-hidden="true"></div>
+
+  <div class="info">
+    <div>میانبرهای صفحه‌کلید: <span class="kbd" aria-label="کلید آ">A</span> = می‌پذیرم،
+      <span class="kbd" aria-label="کلید ن">N</span> = نمی‌پذیرم</div>
+  </div>
+
+  <div class="actions" role="group" aria-label="گزینه‌های ادامه">
+    <button id="acceptBtn" class="btn btn-primary" type="button">می‌پذیرم و ادامه می‌دهم</button>
+    <button id="declineBtn" class="btn btn-danger" type="button">نمی‌پذیرم</button>
+  </div>
+
+  <p class="footer">
+    © <span id="year"></span> — نسخهٔ فارسی/ایرانی‌شدهٔ نمونهٔ «Harvard Implicit Project» با استفاده از jsPsych (متن‌باز). این سایت تنها نسخهٔ آموزشی/پژوهشیِ شخصی‌سازی‌شده است و مالکیت فکریِ ایدهٔ اصلی را ادعا نمی‌کند.
+  </p>
+</div>
+
+  </main> <script>
+    (function(){
+      const acceptBtn = document.getElementById('acceptBtn');
+      const declineBtn = document.getElementById('declineBtn');
+      const year = document.getElementById('year');
+      year.textContent = new Date().getFullYear();
+
+      // TODO: مسیر صفحات خودتان را اینجا تعیین کنید
+      const NEXT_URL = '/experiment.html'; // صفحه شروع تکلیف
+      const EXIT_URL = '/goodbye.html'; // صفحهٔ خروج/تشکر
+
+      function accept(){
+        try { localStorage.setItem('consentAccepted','true'); } catch(e){}
+        window.location.assign(NEXT_URL);
+      }
+      function decline(){
+        try { localStorage.removeItem('consentAccepted'); } catch(e){}
+        window.location.assign(EXIT_URL);
+      }
+      acceptBtn.addEventListener('click', accept);
+      declineBtn.addEventListener('click', decline);
+
+      // کلیدهای میانبر: A = accept ، N = decline (حروف لاتین تا با کیبورد همه سازگار باشد)
+      window.addEventListener('keydown', function(e){
+        const k = (e.key||'').toLowerCase();
+        if(k==='a'){ accept(); }
+        if(k==='n'){ decline(); }
+      });
+    })();
+  </script></body>
+</html>
